@@ -10,7 +10,15 @@ function App() {
   return (
     <div className="App">
 
-      <h1>Value Proposition</h1>
+      <h1>Objective Planner</h1>
+      <h3>Have an interview or exam coming up?</h3>
+      <p>We are here to help you...</p>
+      <ul>
+        <li>gather the right materials</li>
+        <li>create a schedule</li>
+        <li>come up with a game plan!</li>
+      </ul>
+      <p></p>
 
       <UserForm />
     </div>

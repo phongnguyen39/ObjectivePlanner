@@ -1,7 +1,11 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+import { mdiAccount } from '@mdi/js'
+import Icon from '@mdi/react'
 
-const userForm = () =>{
-    return(
+const userForm = () => {
+
+    return (
         <div>
             <form action="" method="">
                 <label>Objective</label><br></br>
@@ -26,8 +30,8 @@ const userForm = () =>{
                     <option>Software Engineer</option>
                     <option>Front-End Developer</option>
                     <option>Back-End Developer</option>
-                </select><br></br>               
-          
+                </select><br></br>
+
                 <label>Company</label><br></br>
                 <select>
                     <option>Google</option>
@@ -36,8 +40,10 @@ const userForm = () =>{
                 </select><br></br><hr></hr>
 
                 <label>Format Preference</label><br></br>
-            
-                {/* FIXME:  checkboxes with react*/}
+
+  
+
+
                 {/* <input type = "checkbox">Google Sheet Document</input> */}
                 {/* <input type = "checkbox" name="pdf" value="pdf">.PDF</input>
                 <input type = "checkbox" name="calendar" value="calendar">Google Calendar</input>
@@ -45,11 +51,11 @@ const userForm = () =>{
 
                  <label>When is the big day? Deadline</label><br></br>
                  <input type = "date"></input><br></br>
-                  */} 
-                  <br></br>
-                 <button type ="submit">Submit</button>                                         
-            </form>
+                  */}
+                <br></br>
+                <Button variant="contained" color="primary">Submit</Button>
 
+            </form>
         </div>
     )
 }

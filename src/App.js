@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import UserForm from './UserForm/UserForm';
 import './App.css';
+import Icon from '@material-ui/core/Icon';
+import IconButton from '@material-ui/core/IconButton';
+import SvgIcon from '@material-ui/core/SvgIcon';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h1>Value Proposition</h1>
+
+
+
+      <Icon>add_circle</Icon>
+      <Typography variant="srOnly">Create a user</Typography>
+
+      <p>Instead words have a .GIF that caroseuls through .Word, iCAL, .pDF, .spreadsheet</p>
+      <p>What are you prepping for?</p>
+      <UserForm />
+
+
     </div>
   );
 }
 
 export default App;
+
+

@@ -49,7 +49,10 @@ const userForm = () => {
 
                 <label>Format Preference</label><br></br>
 
-  
+                <i class='material-icons'>description</i>
+                <i class='material-icons'>mail</i>
+                <i class='material-icons'>save</i>
+                <i class='material-icons'>calendar_today</i>
 
 
                 {/* <input type = "checkbox">Google Sheet Document</input> */}

@@ -1,16 +1,20 @@
 import React from 'react';
 import UserForm from './UserForm/UserForm';
+// import Infographic from './Infographic/Infographic';
 import './App.css';
-import Icon from '@material-ui/core/Icon';
-import IconButton from '@material-ui/core/IconButton';
-import SvgIcon from '@material-ui/core/SvgIcon';
-import Button from '@material-ui/core/Button';
 
+// GOOGLE MATERIAL UI ICONS
+// https://material.io/tools/icons/?style=outline
 function App() {
   return (
-    <div className="App">
 
+    <div className="App">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"></link>
+     
+      
       <h1>Objective Planner</h1>
+
       <h3>Have an interview or exam coming up?</h3>
       <p>We are here to help you...</p>
       <ul>
@@ -21,6 +25,8 @@ function App() {
       <p></p>
 
       <UserForm />
+      {/* <Infographic /> */}
+    
     </div>
   );
 }

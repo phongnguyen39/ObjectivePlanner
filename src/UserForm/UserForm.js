@@ -1,74 +1,77 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import { mdiAccount } from '@mdi/js'
-import Icon from '@mdi/react'
+import './UserForm.css';
 
-    // https://dev.materialdesignicons.com/getting-started/react
-    // https://materialdesignicons.com/
-    // https://cdn.materialdesignicons.com/3.7.95/
-    // https://material-ui.com/api/icon/
-    // https://medium.com/@colebemis/building-a-checkbox-component-with-react-and-styled-components-8d3aa1d826dd
+// https://medium.com/@colebemis/building-a-checkbox-component-with-react-and-styled-components-8d3aa1d826dd
 
 const userForm = () => {
-
-
-
     return (
         <div>
-            <form action="" method="">
-                <label>Objective</label><br></br>
-                <select>
-                    <option>Prepping for an interview</option>
-                    <option>Prepping for an exam</option>
-                </select><br></br>
+            <div id='userForm'>
+                <div id='form-primer'>
+                    <h1>Getting Started</h1>
+                    <h4>Tell us what you are preparing for so we can provide a customized plan</h4>
+                </div>
+                <form action="" method="">
+                    <div class='formLabels'>
+                        <label>Objective</label><br></br>
+                        <p>If Exam</p><hr></hr>
+                        <label>Exam</label><br></br>
+                        <label>Job Title *IF ONLY FOR INTERVIEW</label><br></br>
+                        <label>Company</label><br></br>
+                        <label>Format Preference</label><br></br>
 
-                <p>If Exam</p><hr></hr>
-                <label>Exam</label><br></br>
-                <select>
-                    <option>GRE</option>
-                    <option>AWS Certificaton</option>
-                    <option>Cisco Certificaton</option>
-                    <option>Back-End Developer</option>
-                </select><br></br>
+                    </div>
 
-                <p>If Interview</p><hr></hr>
-                <label>Job Title *IF ONLY FOR INTERVIEW</label><br></br>
-                <select>
-                    <option>Product Manager</option>
-                    <option>Software Engineer</option>
-                    <option>Front-End Developer</option>
-                    <option>Back-End Developer</option>
-                </select><br></br>
+                    <div class='formInputs'>
+                        <select>
+                            <option>Prepping for an interview</option>
+                            <option>Prepping for an exam</option>
+                        </select><br></br>
+                        <select>
+                            <option>GRE</option>
+                            <option>AWS Certificaton</option>
+                            <option>Cisco Certificaton</option>
+                            <option>Back-End Developer</option>
+                        </select><br></br>
 
-                <label>Company</label><br></br>
-                <select>
-                    <option>Google</option>
-                    <option>Facebook</option>
-                    <option>Instagram</option>
-                </select><br></br><hr></hr>
+                        <select>
+                            <option>Product Manager</option>
+                            <option>Software Engineer</option>
+                            <option>Front-End Developer</option>
+                            <option>Back-End Developer</option>
+                        </select><br></br>
 
-                <label>Format Preference</label><br></br>
+                        <select>
+                            <option>Google</option>
+                            <option>Facebook</option>
+                            <option>Instagram</option>
+                        </select><br></br><hr></hr>
 
-                <i class='material-icons'>description</i>
-                <i class='material-icons'>mail</i>
-                <i class='material-icons'>save</i>
-                <i class='material-icons'>calendar_today</i>
+                        <select>
+                            <option>
+                                <i class='material-icons md-48'>description</i></option>
+                            <option><i class='material-icons md-48'>mail</i></option>
+                            <option><i class='material-icons md-48'>save</i></option>
+                            <option><i class='material-icons md-48'>calendar_today</i></option>
+                        </select>
+                    </div>                    
+                    <Button variant="contained" color="primary">Submit</Button>
+                </form>
+            </div>
+        </div>
+    )
+}
+
+export default userForm;
 
 
-                {/* <input type = "checkbox">Google Sheet Document</input> */}
-                {/* <input type = "checkbox" name="pdf" value="pdf">.PDF</input>
+// checkboxes in React
+{/* <input type = "checkbox">Google Sheet Document</input> */}
+                    {/* <input type = "checkbox" name="pdf" value="pdf">.PDF</input>
                 <input type = "checkbox" name="calendar" value="calendar">Google Calendar</input>
                 <input type = "checkbox" name="word" value="word">Google Doc</input>
 
                  <label>When is the big day? Deadline</label><br></br>
                  <input type = "date"></input><br></br>
                   */}
-                <br></br>
-                <Button variant="contained" color="primary">Submit</Button>
-
-            </form>
-        </div>
-    )
-}
-
-export default userForm;

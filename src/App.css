@@ -1,9 +1,40 @@
+
+/* MATERIAL-UI DESIGN */
+/* https://material.io/tools/icons/?icon=description&style=outline */
+
 .App {
+  display: block;
   text-align: center;  
   padding: 2%;
 }
 
-ul li{
+#navbar{
+  position: fixed;
+  text-align: left;  
+  padding: .5%;
+  background: rgba(255, 255, 255, 0.849);
+  color: rgb(60,90,153);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  z-index: 1;
+  width: 100%;
+}
+
+#intro{
+  font-size: x-large;
+  margin: 20% 20% 20% 20%;
+}
+
+table{
+  margin: 0 auto;
+  margin-top: 2%;
   text-align: left;
-  list-style-type:none;
+  font-size: xx-large;
+}
+
+.material-icons.md-48 {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
 }

@@ -38,6 +38,21 @@ table{
   font-size: 48px;
 }
 
+#userFormSection{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+  justify-items: center;
+  margin: 0px;
+  padding: 0px;
+  grid-gap: 0px;
+}
+
+/* #userForm{
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
+
 img{
   background: url('./Infographic/infographic.JPG');
   width: 80%;

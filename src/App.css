@@ -54,7 +54,7 @@ table{
 } */
 
 img{
-  background: url('./Infographic/infographic.JPG');
+  /* background: url('./Infographic/infographic.JPG'); */
   width: 80%;
   height: 900px;
   background-repeat: no-repeat;

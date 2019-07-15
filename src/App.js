@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-// import UserForm from './UserForm/UserForm';
-import Infographic fro./Infographic/PMInfographichic';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import InterviewForm from './UserForm/Interview';
 import ExamForm from './UserForm/Exam';
+import PMInfographic from './Infographic/PMInfographic';
+import SREinforgraphic from './Infographic/SREInforgraphic';
 
 // TODO:  Date logic
 
 
 class App extends Component {
   state = {
-    objective: true,
+    oective: true,
     examType: '',
     jobTitle: '',
     company: '',
@@ -84,7 +84,8 @@ class App extends Component {
             }
           </div>
         </div>
-        <Infographic />
+        <PMInfographic />
+        <SREinforgraphic />
 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"></link>

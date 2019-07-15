@@ -1,6 +1,6 @@
 import React from 'react';
 import UserForm from './UserForm/UserForm';
-// import Infographic from './Infographic/Infographic';
+import Infographic from './Infographic/Infographic';
 import './App.css';
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       </div>
       
       <UserForm />
-        {/* <Infographic /> */}
+      <Infographic />
 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"></link>

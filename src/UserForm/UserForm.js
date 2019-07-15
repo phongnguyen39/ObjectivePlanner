@@ -5,11 +5,17 @@ import './UserForm.css';
 // https://medium.com/@colebemis/building-a-checkbox-component-with-react-and-styled-components-8d3aa1d826dd
 
 const userForm = () => {
+    const  style = {
+        background: 'none',
+        color: 'white',
+        option: "not(:checked) {color: 'white', background: 'none'}"
+    }
+
     return (
         <div>
             <div id='userForm'>
                 <div id='form-primer'>
-                    <h1>Getting Started</h1>
+                    <h1>Getting Started</h1><br></br>
                     <h4>Tell us what you are preparing for so we can provide a customized plan</h4>
                 </div>
                 <div class='formLabels'>
@@ -23,12 +29,12 @@ const userForm = () => {
                 <form action="" method="">
 
                     <div class='formInputs'>
-                        <select>
-                            <option>Prepping for an interview</option>
-                            <option>Prepping for an exam</option>
+                        <select style = {style}>
+                            <option style={style}>Interview</option>
+                            <option style={style}>Exam</option>
                         </select><br></br><br></br>
                         <select>
-                            <option>GRE</option>
+                            <option style={style}>GRE</option>
                             <option>AWS Certificaton</option>
                             <option>Cisco Certificaton</option>
                             <option>Back-End Developer</option>
@@ -48,11 +54,12 @@ const userForm = () => {
                         </select><br></br><br></br>
 
 
-                        
+                            <div>
                         <i class='material-icons md-48'>description</i>
                         <i class='material-icons md-48'>mail</i>
                         <i class='material-icons md-48'>save</i>
                         <i class='material-icons md-48'>calendar_today</i>
+                        </div>
                         
                         {/* <select>
                             <option><i class='material-icons md-48'>description</i></option>
@@ -61,6 +68,7 @@ const userForm = () => {
                             <option><i class='material-icons md-48'>calendar_today</i></option>
                         </select> */}
                     </div>                    
+
                     <Button variant="contained" color="primary">Submit</Button>
                 </form>
             </div>

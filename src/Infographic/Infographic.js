@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Infographic.css';
+// import './Infographic.css';
 
 // var data = [
 //     {
@@ -48,7 +48,7 @@ import './Infographic.css';
 let infographic = (data) => {
     return (
         <div>
-            <div>{data}</div>
+            <img src='../Infographic.JPG'></img>
         </div>
     )
 }

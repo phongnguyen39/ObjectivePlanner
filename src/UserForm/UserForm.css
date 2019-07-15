@@ -37,7 +37,17 @@ span{
 }
 
 button{
-
     margin: 0%;
     width: 50%;
+}
+
+input, select {
+    width: 80%;
+    font-size: 1em;
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    /* border-bottom: 1px solid white; */
+    /* border: none; */
 }

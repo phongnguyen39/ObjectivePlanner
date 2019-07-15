@@ -37,3 +37,11 @@ table{
   font-style: normal;
   font-size: 48px;
 }
+
+img{
+  background: url('./Infographic/infographic.JPG');
+  width: 80%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

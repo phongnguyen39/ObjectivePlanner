@@ -18,7 +18,7 @@ const userForm = () => {
                     <h1>Getting Started</h1><br></br>
                     <h4>Tell us what you are preparing for so we can provide a customized plan</h4>
                 </div>
-                <div class='formLabels'>
+                <div className='formLabels'>
                         <p>What are we prepping for?</p><br></br>
                         <p>Exam</p><br></br>
                         <p>Job Title</p><br></br>
@@ -28,7 +28,7 @@ const userForm = () => {
 
                 <form action="" method="">
 
-                    <div class='formInputs'>
+                    <div className='formInputs'>
                         <select style = {style}>
                             <option style={style}>Interview</option>
                             <option style={style}>Exam</option>
@@ -55,17 +55,17 @@ const userForm = () => {
 
 
                             <div>
-                        <i class='material-icons md-48'>description</i>
-                        <i class='material-icons md-48'>mail</i>
-                        <i class='material-icons md-48'>save</i>
-                        <i class='material-icons md-48'>calendar_today</i>
+                        <i className='material-icons md-48'>description</i>
+                        <i className='material-icons md-48'>mail</i>
+                        <i className='material-icons md-48'>save</i>
+                        <i className='material-icons md-48'>calendar_today</i>
                         </div>
                         
                         {/* <select>
-                            <option><i class='material-icons md-48'>description</i></option>
-                            <option><i class='material-icons md-48'>mail</i></option>
-                            <option><i class='material-icons md-48'>save</i></option>
-                            <option><i class='material-icons md-48'>calendar_today</i></option>
+                            <option><i className='material-icons md-48'>description</i></option>
+                            <option><i className='material-icons md-48'>mail</i></option>
+                            <option><i className='material-icons md-48'>save</i></option>
+                            <option><i className='material-icons md-48'>calendar_today</i></option>
                         </select> */}
                     </div>                    
 

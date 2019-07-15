@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import './Infographic.css';
 
+import '../Infographic/infographic.JPG';
+
 // var data = [
 //     {
 //         slist: ['49, 100%, 54%', '33, 96%, 50%'],
@@ -47,8 +49,8 @@ import React, { Component } from 'react';
 
 let infographic = (data) => {
     return (
-        <div>
-            <img src='../Infographic.JPG'></img>
+        <div>          
+            <img src='../Infographic/infographic.JPG'></img>
         </div>
     )
 }

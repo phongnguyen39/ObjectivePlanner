@@ -12,25 +12,27 @@ function App() {
         <h1>Have an exam or interview coming up?</h1>
         <h3>We are here to help...</h3>
 
-        <table cellspacing='25'>
-          <tr>
+        <table cellSpacing='25'>
+          <thead>
             <th></th>
             <th></th>
-          </tr>
+          </thead>
+          <tbody>
           <tr>
-            <td><i class='material-icons md-48'>calendar_today</i></td>
+            <td><i className='material-icons md-48'>calendar_today</i></td>
             <td>Gather the right prep materials</td>
           </tr>
           <tr>
-            <td><i class='material-icons md-48'>description</i></td>
+            <td><i className='material-icons md-48'>description</i></td>
             <td>Create a schedule</td>
           </tr>
           <tr>
-            <td><i class='material-icons md-48'>toc</i></td>
+            <td><i className='material-icons md-48'>toc</i></td>
             <td>Come up with a game plan</td>
           </tr>
+          </tbody>
         </table>
-        <i class='material-icons md-48'>expand_more</i>
+        <i className='material-icons md-48'>expand_more</i>
       </div>
       
       <UserForm />

@@ -30,7 +30,7 @@ function App() {
             <td>Come up with a game plan</td>
           </tr>
         </table>
-
+        <i class='material-icons md-48'>expand_more</i>
       </div>
       
       <UserForm />

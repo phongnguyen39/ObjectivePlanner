@@ -3,39 +3,41 @@
     background: rgba(255, 255, 255, 0.287);
     width: 75%;
     margin: 0 auto;
+    margin: 0% auto 20% auto;
     padding: 2% 2% 2% 2%;
     font-size: 1.5em;
     display: grid;
-    grid-template-rows: 15% 10% 10% 10% 10% 10%;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 29% 33% 33%;
     grid-gap: 5%;
+    border-radius: 5px;
 }
 
 #form-primer{
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 5;
+    
 }
 
 .formLabels{
-    background: black;
+    text-align: left;
+    border-right: 1px solid gray;
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 6;
-
 }
 
 .formInputs{
-    background: pink;
-    grid-column-start: 4;
+    text-align: left;
+    grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 6;
 }
 
 span{
     width: 20px;
     height: 20px;
+}
+
+button{
+
+    margin: 0%;
+    width: 50%;
 }

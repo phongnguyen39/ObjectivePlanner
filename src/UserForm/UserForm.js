@@ -12,49 +12,54 @@ const userForm = () => {
                     <h1>Getting Started</h1>
                     <h4>Tell us what you are preparing for so we can provide a customized plan</h4>
                 </div>
-                <form action="" method="">
-                    <div class='formLabels'>
-                        <label>Objective</label><br></br>
-                        <p>If Exam</p><hr></hr>
-                        <label>Exam</label><br></br>
-                        <label>Job Title *IF ONLY FOR INTERVIEW</label><br></br>
-                        <label>Company</label><br></br>
-                        <label>Format Preference</label><br></br>
-
+                <div class='formLabels'>
+                        <p>What are we prepping for?</p><br></br>
+                        <p>Exam</p><br></br>
+                        <p>Job Title</p><br></br>
+                        <p>Company</p><br></br>
+                        <p>Format Preference</p><br></br>
                     </div>
+
+                <form action="" method="">
 
                     <div class='formInputs'>
                         <select>
                             <option>Prepping for an interview</option>
                             <option>Prepping for an exam</option>
-                        </select><br></br>
+                        </select><br></br><br></br>
                         <select>
                             <option>GRE</option>
                             <option>AWS Certificaton</option>
                             <option>Cisco Certificaton</option>
                             <option>Back-End Developer</option>
-                        </select><br></br>
+                        </select><br></br><br></br>
 
                         <select>
                             <option>Product Manager</option>
                             <option>Software Engineer</option>
                             <option>Front-End Developer</option>
                             <option>Back-End Developer</option>
-                        </select><br></br>
+                        </select><br></br><br></br>
 
                         <select>
                             <option>Google</option>
                             <option>Facebook</option>
                             <option>Instagram</option>
-                        </select><br></br><hr></hr>
+                        </select><br></br><br></br>
 
-                        <select>
-                            <option>
-                                <i class='material-icons md-48'>description</i></option>
+
+                        
+                        <i class='material-icons md-48'>description</i>
+                        <i class='material-icons md-48'>mail</i>
+                        <i class='material-icons md-48'>save</i>
+                        <i class='material-icons md-48'>calendar_today</i>
+                        
+                        {/* <select>
+                            <option><i class='material-icons md-48'>description</i></option>
                             <option><i class='material-icons md-48'>mail</i></option>
                             <option><i class='material-icons md-48'>save</i></option>
                             <option><i class='material-icons md-48'>calendar_today</i></option>
-                        </select>
+                        </select> */}
                     </div>                    
                     <Button variant="contained" color="primary">Submit</Button>
                 </form>

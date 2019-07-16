@@ -6,7 +6,7 @@ let SREinforgraphic = () => {
     return (
         <div className="infographicStyle">
             <h1>Software Developer Interview Prep</h1>
-            <h2>Analytical & Problem Solving I/II/III</h2>
+            <h2>Analytical & Problem Solving I / II / III</h2>
             <ul>
                 <li>Did you need much help solving the problem?</li>
 

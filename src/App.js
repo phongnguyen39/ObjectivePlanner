@@ -8,7 +8,6 @@ import SREinforgraphic from './Infographic/SREInforgraphic';
 
 // TODO:  Date logic
 
-
 class App extends Component {
   state = {
     oective: true,
@@ -37,7 +36,7 @@ class App extends Component {
 
         <div id="intro">
           <h1>Have an exam or interview coming up?</h1>
-          <h3>We are here to help...</h3>
+          <h4>We are here to help...</h4>
 
           <table cellSpacing='25'>
             <thead>
@@ -73,7 +72,7 @@ class App extends Component {
           <div>
             <Button variant="contained" color="primary" onClick={this.formPath.bind(this, "Interview")} >Interview</Button>
 
-            <Button variant="contained" color="primary" onClick={this.formPath.bind(this, "Exam")}>Exam</Button>
+            <Button variant="contained" color="green" onClick={this.formPath.bind(this, "Exam")}>Exam</Button>
 
             {this.state.switchForm === true ?
               <div>

@@ -7,13 +7,15 @@ class ExamForm extends Component {
             <form action="" method="">
 
                 <div className='formInputs'>
+                    <label>Exam Name</label>
                     <select>
                         <option>GRE</option>
                         <option>AWS Certificaton</option>
                         <option>Cisco Certificaton</option>
                         <option>Back-End Developer</option>
                     </select><br></br><br></br>
-
+                    
+                    <label>Exam Date</label>
                     <input type='date'></input>
 
                     {/* <div id='checkboxes'>

@@ -9,14 +9,17 @@
 }
 
 #navbar{
+  font-family: 'Times New Roman', Times, serif;
   position: fixed;
   text-align: left;  
   padding: 1% 0% 1% 1%;
-  background: rgba(255, 255, 255, 0.849);
-  color: rgb(60,90,153);
-  font-size: 1.5em;
+  /* background: rgba(255, 255, 255, 0.849); */
+  /* color: rgb(91, 133, 224); */
+  color: white;
+  font-size: 1.2em;
   z-index: 1;
   width: 100%;
+  
 }
 
 #intro{
@@ -59,4 +62,74 @@ img{
   height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+#userForm{
+  background: rgba(255, 255, 255, 0.404);
+  width: 75%;
+  margin: 0 auto;
+  margin: 0% auto 20% auto;
+  padding: 2% 2% 2% 2%;
+  font-size: 1.5em;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 3%;
+  border-radius: 5px;
+  justify-items: center;
+}
+
+#form-primer{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.formLabels{
+  text-align: left;
+  border-right: 1px solid gray;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-right: 10%;
+}
+
+.formInputs{
+  text-align: left;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  line-height: 1.5;
+  padding: 2%;
+}
+
+span{
+  width: 20px;
+  height: 20px;
+}
+
+button{
+  margin: 0%;
+  width: 50%;
+}
+
+label{
+  font-size: 1.2em;
+}
+
+input, select {
+  width: 100%;
+  font-size: 1em;
+  background: rgba(65, 99, 173, 0.541);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  /* border-bottom: 1px solid white; */
+  /* border: none; */
+}
+
+#checkboxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }

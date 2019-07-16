@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
-import './UserForm.css';
 
 class interviewForm extends Component {
     render() {
@@ -23,7 +22,8 @@ class interviewForm extends Component {
                         <option>Facebook</option>
                         <option>Instagram</option>
                     </select><br></br><br></br>
-
+                    
+                    <label>Interview Date</label>
                     <input type='date'></input>
 
                     {/* <div id='checkboxes'>

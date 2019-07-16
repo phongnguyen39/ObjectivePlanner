@@ -8,6 +8,10 @@
   padding: 2%;
 }
 
+.MuiButton-label:after{
+  background: red;
+}
+
 #navbar{
   font-family: 'Times New Roman', Times, serif;
   position: fixed;

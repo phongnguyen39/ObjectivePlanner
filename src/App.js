@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import InterviewForm from './UserForm/Interview';
@@ -18,14 +18,31 @@ class App extends Component {
     switchForm: false,
   }
 
+
+  // TODO: Need to get switch button color on and off
+  // buttonActive = (input) => {
+  //   const[Interview, Exam] = useState(false);
+
+  //   useEffect(() => {
+  //     if (Interview) {
+  //       {
+  //         setLoading(false);
+  //       };
+  //     }
+  //   }, [Interview]);
+    
+  // } 
+
   formPath = (switchForm) => {
     if(switchForm == "Interview"){
       const change = this.state.switchForm;
-      this.setState({switchForm: !change})
+      this.setState({switchForm: !change});
+      // this.buttonActive();
     }
     if(switchForm == "Exam"){
       const change = this.state.switchForm;
-      this.setState({switchForm: !change})
+      this.setState({switchForm: !change});
+      // this.buttonActive();
     }    
   }
 
@@ -70,9 +87,10 @@ class App extends Component {
           </div>
 
           <div>
-            <Button variant="contained" color="primary" onClick={this.formPath.bind(this, "Interview")} >Interview</Button>
+            <Button active variant="contained" color="primary" onClick={this.formPath.bind(this, "Interview")} >Interview</Button>
+            {/* <Button active disabled={Interview} variant="contained" color="primary" onClick={this.formPath.bind(this, "Interview")} >Interview</Button> */}
 
-            <Button variant="contained" color="green" onClick={this.formPath.bind(this, "Exam")}>Exam</Button>
+            <Button active variant="contained" color="primary" onClick={this.formPath.bind(this, "Exam")}>Exam</Button>
 
             {this.state.switchForm === true ?
               <div>

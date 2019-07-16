@@ -65,8 +65,8 @@ class App extends Component {
 
         <div id='userForm'>
           <div id='form-primer'>
-            <h1>Getting Started</h1><br></br>
-            <h4>Tell us what you are preparing for so we can provide a customized plan</h4>
+            <h1>Getting Started</h1><br></br><br></br>
+            <p>Tell us what you are preparing for.  We can provide a customized plan for your big day. </p>
           </div>
 
           <div>

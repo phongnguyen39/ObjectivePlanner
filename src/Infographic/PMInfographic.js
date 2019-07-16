@@ -4,7 +4,7 @@ import Collapsible from 'react-collapsible';
 
 // TODO: Making collapsible sections   https://www.npmjs.com/package/react-collapsible
 // https://jsfiddle.net/sm7n31p1/1/
-// FIXME: Collapsible fontLarge changes after collapsing... fix
+// FIXME: Collapsible fontLarge changes after collapsing... has to do with the object not sharing the same class after triggering.  Check the console log and notice the styling change 
 
 class PMinfographic extends Component {
 
@@ -16,7 +16,7 @@ class PMinfographic extends Component {
 
                 <h1>Product Manager Interview Prep</h1>
                 
-                <Collapsible className='fontLarge'  trigger={'Product Design Questions:'}>
+                <Collapsible className='fontLarge'  trigger={'> Product Design Questions:'}>
                     <h4>Use CIRCLES Method:</h4>
                     <ul>
                         <li>Comprehend the Situation</li>
@@ -30,7 +30,7 @@ class PMinfographic extends Component {
                     </ul>
                 </Collapsible>
                 
-                <Collapsible className='fontLarge'  trigger={'Estimation Questions:'}>
+                <Collapsible className='fontLarge'  trigger={'> Estimation Questions:'}>
                 <h4>The Top Down Method</h4>
                 <ul>
                     <li>No. Of US Households</li>
@@ -49,12 +49,12 @@ class PMinfographic extends Component {
                 </Collapsible>
 
                 
-                <Collapsible className='fontLarge'  trigger={'Analytic Metrics:'}>
+                <Collapsible className='fontLarge'  trigger={'> Analytic Metrics:'}>
                 <h4>Use Lewis C. Lin's A.A.R.M. Framework: 1. Acquisition - CPC, CPM, UserSignups 2. Activation - Complete Registrations 3. Retention - DAU, MAU, Churn Rate 4. Monetization - Premium Users, LTV</h4>
                 </Collapsible>
 
                 
-                <Collapsible className='fontLarge'  trigger={'Strategy Questions:'}>
+                <Collapsible className='fontLarge'  trigger={'> Strategy Questions:'}>
                 <ul>
                     <li>SWOT Analysis</li>
                     <li>5[C’s]</li>
@@ -63,7 +63,7 @@ class PMinfographic extends Component {
                 </Collapsible>
 
                 
-                <Collapsible className='fontLarge'  trigger={'Behavorial Questions:'}>
+                <Collapsible className='fontLarge'  trigger={'> Behavorial Questions:'}>
                 <ul>
                     <li>STAR (Facebook...)</li>
                     <ul>

@@ -17,12 +17,13 @@ ul, li {
 }
 
 .fontLarge{
+    color: rgb(60,90,153);
     font-size: 1.5em;
     font-weight: bold;
 }
 
 /* Below code is not fixing the size */
-.fontLarge.is-open::after{
+.fontLarge.is-open:after{
     font-size: 1.5em;
     font-weight: bold;
 }

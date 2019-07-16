@@ -8,7 +8,7 @@ let SREinforgraphic = () => {
             <h1>Software Developer Interview Prep</h1>
 
             
-            <Collapsible className='fontLarge' trigger={'Analytical & Problem Solving I / II / III:'}>
+            <Collapsible className='fontLarge' trigger={'> Analytical & Problem Solving I / II / III:'}>
             <ul>
                 <li>Did you need much help solving the problem?</li>
 
@@ -26,7 +26,7 @@ let SREinforgraphic = () => {
 
 
         
-            <Collapsible className='fontLarge' trigger={'White-boarding &/or Coding Skills:'}>
+            <Collapsible className='fontLarge' trigger={'> White-boarding &/or Coding Skills:'}>
             
                 <li>Understand Problem and what data structure / algorithms to apply</li>
 
@@ -42,7 +42,7 @@ let SREinforgraphic = () => {
                 </Collapsible>
 
         
-        <Collapsible className='fontLarge'  trigger={'Past Experience OR Portfolio Projects:'}>
+        <Collapsible className='fontLarge'  trigger={'> Past Experience OR Portfolio Projects:'}>
                  
             <li>Experience: Have you made good technical decisions in the past?</li>
                     <li>Have you built interesting, challenging projects?</li>
@@ -50,7 +50,7 @@ let SREinforgraphic = () => {
                     </Collapsible>
             
         
-        <Collapsible className='fontLarge'  trigger={'Communication Skills/ Culture Fit:'}>
+        <Collapsible className='fontLarge'  trigger={'> Communication Skills/ Culture Fit:'}>
                      
             <li>Do your personality and values fit with the company and team?</li>
                         <li>Did you communicate well with your interviewer? </li>
@@ -58,7 +58,7 @@ let SREinforgraphic = () => {
 
             
                             
-                            <Collapsible className='fontLarge'  trigger={'Technical Knowledge/ CS Fundamentals:'}>                        <li>Do you have a strong foundation in computer science and the relevant technologies?</li>
+                            <Collapsible className='fontLarge'  trigger={'> Technical Knowledge/ CS Fundamentals:'}>                        <li>Do you have a strong foundation in computer science and the relevant technologies?</li>
                         <li>If you don’t come from a CS background, familiarize yourself with at least with job specific info. </li>
     <h4>Company/Role specific Preparation</h4>
             
